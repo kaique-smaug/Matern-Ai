@@ -1,4 +1,15 @@
-chromadb>=1.5,<2
-joblib>=1.4,<2
-numpy>=2.0,<3
-scikit-learn>=1.6,<2
+# API
+fastapi
+uvicorn[standard]
+
+# Configurações e validação
+pydantic
+pydantic-settings
+
+# Banco vetorial
+chromadb
+# Vetorização TF-IDF
+scikit-learn
+# Operações numéricas e persistência
+numpy
+joblib

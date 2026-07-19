@@ -1,0 +1,15 @@
+{
+  "project": "MaterAI RAG",
+  "collection": "materai_clinical",
+  "chunks": 2771,
+  "source_folders": ["docs - train IA", "docs - train IA 2"],
+  "default_embedding_provider": "tfidf",
+  "semantic_embedding_option": "text-embedding-3-small",
+  "generation_provider": "OpenAI via LangChain",
+  "safety": [
+    "deterministic emergency triage",
+    "grounded-only generation",
+    "source and page citations",
+    "medical disclaimer"
+  ]
+}

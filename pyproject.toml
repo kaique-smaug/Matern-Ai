@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "materai-rag"
+version = "1.0.0"
+description = "RAG clínico-informacional para apoio a gestantes e mães"
+requires-python = ">=3.11"
+dependencies = [
+  "chromadb>=1.0,<2",
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "pydantic>=2.10,<3",
+  "pydantic-settings>=2.7,<3",
+  "python-dotenv>=1.0,<2",
+  "scikit-learn>=1.4,<2",
+  "joblib>=1.4,<2",
+  "numpy>=1.26,<3",
+  "langchain>=1.0,<2",
+  "langchain-openai>=1.0,<2",
+  "langchain-chroma>=1.0,<2",
+  "openai>=1.70,<3"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "httpx>=0.28,<1", "ruff>=0.11,<1"]
+
+[project.scripts]
+materai = "materai_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
