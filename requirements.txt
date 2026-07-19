@@ -8,8 +8,13 @@ pydantic-settings
 
 # Banco vetorial
 chromadb
+
 # Vetorização TF-IDF
 scikit-learn
+
 # Operações numéricas e persistência
 numpy
 joblib
+
+# lagnchain + openai
+langchain-openai
