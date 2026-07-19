@@ -1,0 +1,16 @@
+[
+  {
+    "duplicate_file": "15657-Texto do artigo-67152-1-10-20170313 (1).pdf",
+    "canonical_file": "15657-Texto do artigo-67152-1-10-20170313.pdf",
+    "sha256": "1abbafe5ed7b6a44a8ef545dfa3af0b2369bf7b5921d0a94fbad793b3fbbcf5f",
+    "duplicate_drive_file_id": "1DjsRsNT0I_w12Rl8DmQqO1k0VGvYMKIQ",
+    "canonical_drive_file_id": "1apcrnrdTS68hEj777P80gPqvvUeRuLk3"
+  },
+  {
+    "duplicate_file": "1806-9339-rbgo-41-05-0001 (1).pdf",
+    "canonical_file": "1806-9339-rbgo-41-05-0001.pdf",
+    "sha256": "f64b0071a9d42f9503ade871a71ad729baa22dcf3ad3440ae9cb0f0cd789e750",
+    "duplicate_drive_file_id": "1gXniTCBtSMVRBKoiqpg-o-wcvV19CvRi",
+    "canonical_drive_file_id": "1zWPXMbqmzgSc7VVKZeTAfb3d1-gg22IT"
+  }
+]

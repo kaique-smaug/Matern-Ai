@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "collection_count": 2177,
+  "expected_collection_count": 2177,
+  "vector_dimension": 1536,
+  "required_files": {
+    "chunks.jsonl": true,
+    "chroma_db": true,
+    "tfidf_vectorizer.joblib": true,
+    "query_chromadb.py": true,
+    "rebuild_chromadb.py": true
+  },
+  "query_checks": [
+    {
+      "query": "quais são os sinais e sintomas de pré-eclâmpsia?",
+      "top_document": "Hipertensão na gravidez",
+      "top_source_file": "Hipertensao-na-Gravidez.pdf",
+      "top_pages": [
+        17,
+        18
+      ],
+      "top_score": 0.4036,
+      "expected_terms_found": {
+        "pré-eclâmpsia": true,
+        "hipertensão": true
+      }
+    },
+    {
+      "query": "quando realizar o teste oral de tolerância à glicose na gestação?",
+      "top_document": "Pré-natal, parto e puerpério: manual técnico",
+      "top_source_file": "manual_tecnico_do_pre_natal_parto_e_puerperio.pdf",
+      "top_pages": [
+        112,
+        113
+      ],
+      "top_score": 0.3319,
+      "expected_terms_found": {
+        "glicose": true,
+        "24-28": true
+      }
+    },
+    {
+      "query": "vacinas recomendadas durante a gestação",
+      "top_document": "Pré-natal, parto e puerpério: manual técnico",
+      "top_source_file": "manual_tecnico_do_pre_natal_parto_e_puerperio.pdf",
+      "top_pages": [
+        169,
+        169
+      ],
+      "top_score": 0.3606,
+      "expected_terms_found": {
+        "vacina": true,
+        "gestante": true
+      }
+    }
+  ]
+}

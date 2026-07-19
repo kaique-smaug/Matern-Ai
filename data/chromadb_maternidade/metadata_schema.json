@@ -1,0 +1,34 @@
+{
+  "record_fields": {
+    "id": "Identificador estável e único do chunk.",
+    "text": "Texto bruto extraído do PDF.",
+    "document": "Texto indexado, enriquecido com título do documento e caminho da seção.",
+    "metadata": "Metadados escalares compatíveis com ChromaDB."
+  },
+  "metadata_fields": {
+    "document_id": "ID estável baseado no SHA-256 do PDF.",
+    "source_file": "Nome do PDF no Google Drive.",
+    "source_drive_file_id": "ID do arquivo no Google Drive.",
+    "source_drive_url": "URL de origem no Google Drive.",
+    "source_drive_folder": "Nome da pasta de origem.",
+    "source_drive_folder_id": "ID da pasta de origem.",
+    "document_title": "Título normalizado do documento.",
+    "document_type": "Categoria inferida do documento.",
+    "author": "Autor(es), quando detectado(s).",
+    "page_start": "Primeira página do chunk, indexação humana iniciando em 1.",
+    "page_end": "Última página do chunk.",
+    "section": "Seção principal detectada.",
+    "subsection": "Subseção detectada.",
+    "section_path": "Caminho hierárquico completo.",
+    "section_index": "Posição da seção dentro do documento.",
+    "section_chunk_index": "Posição do chunk dentro da seção.",
+    "chunk_index": "Posição global do chunk no documento.",
+    "char_count": "Quantidade de caracteres do texto bruto.",
+    "token_count": "Estimativa conservadora de tokens.",
+    "token_count_method": "Método usado para estimar tokens.",
+    "extraction_method": "Extração nativa ou OCR.",
+    "document_sha256": "Hash SHA-256 do PDF.",
+    "content_sha256": "Hash SHA-256 do conteúdo do chunk.",
+    "language": "Idioma principal inferido."
+  }
+}

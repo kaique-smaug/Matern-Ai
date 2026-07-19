@@ -1,0 +1,27 @@
+{
+  "package_name": "chromadb_maternidade",
+  "created_at_utc": "2026-07-18T22:12:05.451763+00:00",
+  "collection_name": "maternidade_docs",
+  "collection_count": 2177,
+  "unique_documents": 65,
+  "pdf_files_found": 67,
+  "duplicate_files_ignored": 2,
+  "total_pages": 1733,
+  "embedding_backend": "tfidf_word_char_offline",
+  "embedding_dimension": 1536,
+  "distance_metric": "cosine",
+  "chunking": {
+    "chunking": "section_chapter_hybrid",
+    "max_tokens": 650,
+    "overlap_tokens": 80,
+    "min_tokens_after_merge": 80,
+    "token_count_method": "approx_lexical_utf8"
+  },
+  "source_folder": {
+    "name": "docs - train IA",
+    "id": "1XC0yi-EGAio8XciBUr2ZaXVF2egWbPla"
+  },
+  "content_file": "chunks.jsonl",
+  "database_directory": "chroma_db",
+  "vectorizer_file": "tfidf_vectorizer.joblib"
+}
